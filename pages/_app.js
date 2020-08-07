@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import AppContainer from '../components/App'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+const MyApp = props => {
+  const { Component, pageProps } = props
+  return (
+    <AppContainer>
+      <Component {...pageProps} />
+    </AppContainer>
+  )
 }
 
 export default MyApp

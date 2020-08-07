@@ -9,7 +9,13 @@
   },
   "dependencies": {
     "next": "9.5.1",
+    "polished": "^3.6.5",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-froala-wysiwyg": "^3.2.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^10.4.8"
   }
 }
